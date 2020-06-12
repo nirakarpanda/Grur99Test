@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browserValue" value="firefox"/>
+  <test name="firefox(failed)" parallel="tests">
+    <parameter name="browserValue" value="firefox"/>
+    <classes>
+      <class name="com.nirakar.script.DataDrivenLoginTest">
+        <methods>
+          <include name="dataDrivenloginTest"/>
+        </methods>
+      </class> <!-- com.nirakar.script.DataDrivenLoginTest -->
+      <class name="com.nirakar.script.LoginPageTest">
+        <methods>
+          <include name="MoveToLoginPage"/>
+          <include name="OpenBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="product_1_Details"/>
+          <include name="test_Home_Page_Appear_Correct"/>
+        </methods>
+      </class> <!-- com.nirakar.script.LoginPageTest -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+  <test name="chrome(failed)" parallel="tests">
+    <parameter name="browserValue" value="crome"/>
+    <classes>
+      <class name="com.nirakar.script.DataDrivenLoginTest">
+        <methods>
+          <include name="dataDrivenloginTest"/>
+        </methods>
+      </class> <!-- com.nirakar.script.DataDrivenLoginTest -->
+      <class name="com.nirakar.script.LoginPageTest">
+        <methods>
+          <include name="MoveToLoginPage"/>
+          <include name="OpenBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="product_1_Details"/>
+          <include name="test_Home_Page_Appear_Correct"/>
+        </methods>
+      </class> <!-- com.nirakar.script.LoginPageTest -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

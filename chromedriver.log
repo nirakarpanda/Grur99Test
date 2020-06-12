@@ -1,0 +1,13 @@
+[0.048][INFO]:      ChromeDriver 22.0.1203.0 E:\SOfT\java\Selenium\workspace\Guru99Test\Drivers\chromedriver.exe
+[3.196][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "goog:chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   }
+}
+
+[3.197][INFO]:      Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --disable-popup-blocking --homepage=about:blank
+[48.218][SEVERE]:   Failed to initialize connection
+[62.842][INFO]:     Chrome still running after 10s
+[62.842][INFO]:     Chrome shutdown
